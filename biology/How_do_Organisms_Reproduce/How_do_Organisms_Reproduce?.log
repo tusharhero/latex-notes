@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.27)  13 MAR 2022 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.27)  13 MAR 2022 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -47,6 +47,23 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
+(/usr/share/texlive/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@dirtytalk@qdepth=\count175
+)
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -68,7 +85,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count175
+\l__kernel_color_stack_int=\count176
 \l__pdf_internal_box=\box46
 )
 
@@ -78,33 +95,33 @@ LaTeX Warning: Unused global option(s):
 (./How_do_Organisms_Reproduce?.aux)
 \openout1 = `How_do_Organisms_Reproduce?.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count176
+\scratchcounter=\count177
 \scratchdimen=\dimen137
 \scratchbox=\box47
-\nofMPsegments=\count177
-\nofMParguments=\count178
+\nofMPsegments=\count178
+\nofMParguments=\count179
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count179
+\MPscratchCnt=\count180
 \MPscratchDim=\dimen138
-\MPnumerator=\count180
-\makeMPintoPDFobject=\count181
+\MPnumerator=\count181
+\makeMPintoPDFobject=\count182
 \everyMPtoPDFconversion=\toks16
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -116,11 +133,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 15.
 
 (./How_do_Organisms_Reproduce?.toc)
 \tf@toc=\write3
@@ -129,15 +146,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <./images/vsauce-eyes.jpg, id=1, 903.375pt x 903.375pt>
 File: ./images/vsauce-eyes.jpg Graphic file (type jpg)
 <use ./images/vsauce-eyes.jpg>
-Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 23.
+Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 24.
 (pdftex.def)             Requested size: 13.55003pt x 13.55003pt.
 
-Overfull \hbox (7.2864pt too wide) in paragraph at lines 26--26
+Overfull \hbox (7.2864pt too wide) in paragraph at lines 27--27
 []\OT1/cmr/bx/n/14.4 Do or-gan-isms cre-ate ex-act copies of each other? 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
@@ -146,37 +163,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--30
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/vsauce-eyes.jpg>]
 File: ./images/vsauce-eyes.jpg Graphic file (type jpg)
 <use ./images/vsauce-eyes.jpg>
-Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 36.
+Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 37.
 (pdftex.def)             Requested size: 13.55003pt x 13.55003pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-
-Overfull \hbox (28.20018pt too wide) in paragraph at lines 47--51
-\OT1/cmr/m/n/24.88 defined places, or niches, in the ecosys-
- []
-
-[2] [3] (./How_do_Organisms_Reproduce?.aux) ) 
+[2] (./How_do_Organisms_Reproduce?.aux) ) 
 Here is how much of TeX's memory you used:
- 1643 strings out of 483183
- 22711 string characters out of 5966292
- 257097 words of memory out of 5000000
- 16685 multiletter control sequences out of 15000+600000
- 536892 words of font info for 39 fonts, out of 8000000 for 9000
+ 2048 strings out of 483183
+ 29094 string characters out of 5966292
+ 264948 words of memory out of 5000000
+ 17070 multiletter control sequences out of 15000+600000
+ 536931 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,6n,37p,272b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb>
-Output written on How_do_Organisms_Reproduce?.pdf (3 pages, 197134 bytes).
+ 30i,6n,37p,259b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
+b>
+Output written on How_do_Organisms_Reproduce?.pdf (2 pages, 209499 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
