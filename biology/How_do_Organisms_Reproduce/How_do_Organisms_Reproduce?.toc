@@ -4,3 +4,4 @@
 \contentsline {paragraph}{}{2}%
 \contentsline {paragraph}{}{2}%
 \contentsline {paragraph}{}{2}%
+\contentsline {section}{\numberline {3}Importance of Variations}{2}%

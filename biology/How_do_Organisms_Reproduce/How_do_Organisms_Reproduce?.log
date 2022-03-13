@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.27)  6 MAR 2022 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.27)  13 MAR 2022 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -153,25 +153,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-[2] (./How_do_Organisms_Reproduce?.aux) ) 
+
+Overfull \hbox (28.20018pt too wide) in paragraph at lines 47--51
+\OT1/cmr/m/n/24.88 defined places, or niches, in the ecosys-
+ []
+
+[2] [3] (./How_do_Organisms_Reproduce?.aux) ) 
 Here is how much of TeX's memory you used:
- 1642 strings out of 483183
- 22693 string characters out of 5966292
+ 1643 strings out of 483183
+ 22711 string characters out of 5966292
  257097 words of memory out of 5000000
- 16684 multiletter control sequences out of 15000+600000
- 536585 words of font info for 38 fonts, out of 8000000 for 9000
+ 16685 multiletter control sequences out of 15000+600000
+ 536892 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  30i,6n,37p,272b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r17.pfb>
-Output written on How_do_Organisms_Reproduce?.pdf (2 pages, 192928 bytes).
+</usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr17.pfb>
+Output written on How_do_Organisms_Reproduce?.pdf (3 pages, 197134 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
