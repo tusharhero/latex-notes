@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.27)  13 MAR 2022 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.18)  21 MAR 2022 13:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -170,7 +170,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[2] (./How_do_Organisms_Reproduce?.aux) ) 
+File: ./images/vsauce-eyes.jpg Graphic file (type jpg)
+<use ./images/vsauce-eyes.jpg>
+Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 54.
+(pdftex.def)             Requested size: 13.55003pt x 13.55003pt.
+[2] [3] (./How_do_Organisms_Reproduce?.aux) ) 
 Here is how much of TeX's memory you used:
  2048 strings out of 483183
  29094 string characters out of 5966292
@@ -179,17 +183,17 @@ Here is how much of TeX's memory you used:
  536931 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  30i,6n,37p,259b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
-b>
-Output written on How_do_Organisms_Reproduce?.pdf (2 pages, 209499 bytes).
+</usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb>
+Output written on How_do_Organisms_Reproduce?.pdf (3 pages, 210126 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
