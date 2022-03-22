@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.2.27)  6 MAR 2022 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.18)  21 MAR 2022 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -47,6 +47,23 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
+(/usr/share/texlive/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
+Package: dirtytalk 2010/11/21 A package making "quoting" easier
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@dirtytalk@qdepth=\count175
+)
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -64,12 +81,10 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-\GPT@outputbox=\box45
-
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count175
-\l__pdf_internal_box=\box46
+\l__kernel_color_stack_int=\count176
+\l__pdf_internal_box=\box45
 )
 
 LaTeX Warning: Unused global option(s):
@@ -78,33 +93,33 @@ LaTeX Warning: Unused global option(s):
 (./How_do_Organisms_Reproduce?.aux)
 \openout1 = `How_do_Organisms_Reproduce?.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count176
+\scratchcounter=\count177
 \scratchdimen=\dimen137
-\scratchbox=\box47
-\nofMPsegments=\count177
-\nofMParguments=\count178
+\scratchbox=\box46
+\nofMPsegments=\count178
+\nofMParguments=\count179
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count179
+\MPscratchCnt=\count180
 \MPscratchDim=\dimen138
-\MPnumerator=\count180
-\makeMPintoPDFobject=\count181
+\MPnumerator=\count181
+\makeMPintoPDFobject=\count182
 \everyMPtoPDFconversion=\toks16
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -116,11 +131,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 15.
 
 (./How_do_Organisms_Reproduce?.toc)
 \tf@toc=\write3
@@ -129,15 +144,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <./images/vsauce-eyes.jpg, id=1, 903.375pt x 903.375pt>
 File: ./images/vsauce-eyes.jpg Graphic file (type jpg)
 <use ./images/vsauce-eyes.jpg>
-Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 23.
+Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 24.
 (pdftex.def)             Requested size: 13.55003pt x 13.55003pt.
 
-Overfull \hbox (7.2864pt too wide) in paragraph at lines 26--26
+Overfull \hbox (7.2864pt too wide) in paragraph at lines 27--27
 []\OT1/cmr/bx/n/14.4 Do or-gan-isms cre-ate ex-act copies of each other? 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
 
@@ -146,32 +161,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--30
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/vsauce-eyes.jpg>]
 File: ./images/vsauce-eyes.jpg Graphic file (type jpg)
 <use ./images/vsauce-eyes.jpg>
-Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 36.
+Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 37.
 (pdftex.def)             Requested size: 13.55003pt x 13.55003pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[2] (./How_do_Organisms_Reproduce?.aux) ) 
+File: ./images/vsauce-eyes.jpg Graphic file (type jpg)
+<use ./images/vsauce-eyes.jpg>
+Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 54.
+(pdftex.def)             Requested size: 13.55003pt x 13.55003pt.
+[2]
+Overfull \hbox (4.05804pt too wide) in paragraph at lines 72--72
+[]\OT1/cmr/bx/n/14.4 Modes of asex-ual re-pro-duc-tions used by single-
+ []
+
+<./images/Yeast-Under-Microscope.jpg, id=15, 642.4pt x 480.79625pt>
+File: ./images/Yeast-Under-Microscope.jpg Graphic file (type jpg)
+<use ./images/Yeast-Under-Microscope.jpg>
+Package pdftex.def Info: ./images/Yeast-Under-Microscope.jpg  used on input lin
+e 76.
+(pdftex.def)             Requested size: 160.59961pt x 120.19876pt.
+<./images/bread-mould-fungus.jpg, id=16, 1003.75pt x 669.50125pt>
+File: ./images/bread-mould-fungus.jpg Graphic file (type jpg)
+<use ./images/bread-mould-fungus.jpg>
+Package pdftex.def Info: ./images/bread-mould-fungus.jpg  used on input line 78
+.
+(pdftex.def)             Requested size: 150.556pt x 100.42085pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--81
+
+ []
+
+[3 <./images/Yeast-Under-Microscope.jpg>]
+<./images/Binary-fission-in-amoeba.png, id=21, 603.25375pt x 232.87pt>
+File: ./images/Binary-fission-in-amoeba.png Graphic file (type png)
+<use ./images/Binary-fission-in-amoeba.png>
+Package pdftex.def Info: ./images/Binary-fission-in-amoeba.png  used on input l
+ine 91.
+(pdftex.def)             Requested size: 301.62613pt x 116.43471pt.
+File: ./images/vsauce-eyes.jpg Graphic file (type jpg)
+<use ./images/vsauce-eyes.jpg>
+Package pdftex.def Info: ./images/vsauce-eyes.jpg  used on input line 94.
+(pdftex.def)             Requested size: 13.55003pt x 13.55003pt.
+<./images/Leishmania-fission.png, id=23, 823.075pt x 322.20375pt>
+File: ./images/Leishmania-fission.png Graphic file (type png)
+<use ./images/Leishmania-fission.png>
+Package pdftex.def Info: ./images/Leishmania-fission.png  used on input line 96
+.
+(pdftex.def)             Requested size: 329.22417pt x 128.87921pt.
+ [4 <./images/bread-mould-fungus.jpg> <./images/Binary-fission-in-amoeba.png>] 
+[5 <./images/Leishmania-fission.png>]
+(./How_do_Organisms_Reproduce?.aux) ) 
 Here is how much of TeX's memory you used:
- 1642 strings out of 483183
- 22693 string characters out of 5966292
- 257097 words of memory out of 5000000
- 16684 multiletter control sequences out of 15000+600000
- 536585 words of font info for 38 fonts, out of 8000000 for 9000
+ 2074 strings out of 483183
+ 29921 string characters out of 5966292
+ 265688 words of memory out of 5000000
+ 17091 multiletter control sequences out of 15000+600000
+ 537238 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 30i,6n,37p,272b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r17.pfb>
-Output written on How_do_Organisms_Reproduce?.pdf (2 pages, 192928 bytes).
+ 30i,6n,37p,259b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on How_do_Organisms_Reproduce?.pdf (5 pages, 933333 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
