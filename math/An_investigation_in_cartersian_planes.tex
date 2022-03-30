@@ -18,6 +18,8 @@
 \usepackage{pgfplots}
 \usepackage{bm}
 \usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Other Settings
@@ -32,6 +34,7 @@
 \definecolor{shallowGreen}{RGB}{235,255,255}
 \definecolor{deepBlue}{RGB}{61,124,222}
 \definecolor{shallowBlue}{RGB}{235,249,255}
+\definecolor{Red}{RGB}{240,20,10}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
@@ -56,7 +59,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{An Investigation in Cartesian Planes}{
-\author{Tushar Maharana}
+\author{Tushar Maharana \thanks{Existence\#6673 (Discord user)}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -163,4 +166,30 @@
         \end{tikzpicture}
         \end{align}
     We found another equation, I am sure that there are many more! But I haven't found another one yet. But if you find one email me at \href{mailto:tusharmaharana44676@gmail.com}{tusharmaharana44676@gmail.com}.
+    \section{Existence\#6673}
+    Existence told me about the general form of these equations.
+
+    Any equation having the solutions $1$ and $2$ ($y = 0$) is in the form of,
+    \begin{align}
+        f(x)=ax^n(x-1)(x-2)
+    \end{align}
+    We just got a infinite supply of these equations! \\
+    Let's create four of them and graph them!
+    \begin{align}
+        \color{ocre}{f(x)=(x-1)(x-2) , a = 1 , n = 0} \\
+        \color{Red}{f(x)=2x(x-1)(x-2) , a = 2 , n = 1}\\
+        \color{deepGreen}{f(x)=3(x^2)(x-1)(x-1) , a = 3 , n = 2}\\
+        \color{deepBlue}{f(x)=4(x^3)(x-1)(x) , a = 4 , n = 3}
+    \end{align}
+    \begin{align}
+    \begin{tikzpicture}
+        \begin{axis}[axis x line=middle, axis y line=middle]
+            \addplot coordinates {(1,0)(2,0)};
+            \addplot[color=ocre] {(x-1)*(x-2)};
+            \addplot [color=Red]{(2*x)*(x-1)*(x-2)};
+            \addplot [color=deepGreen]{3*(x^2)*(x-1)*(x-2)};
+            \addplot [color=deepBlue]{4*(x^3)*(x-1)*(x-2)};
+        \end{axis}
+    \end{tikzpicture}
+    \end{align}
 \end{document}
