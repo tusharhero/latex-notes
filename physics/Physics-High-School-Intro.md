@@ -1,8 +1,8 @@
-# *Physics High school Introduction*
+# Physics High School Introduction
 
 ### Table of Contents
 
-- [*Physics High school Introduction*](#physics-high-school-introduction)
+- [Physics High School Introduction](#physics-high-school-introduction)
     - [Table of Contents](#table-of-contents)
   - [Physics: Definitions and Applications](#physics-definitions-and-applications)
     - [What Physics Is](#what-physics-is)
@@ -24,8 +24,6 @@
       - [The Second](#the-second)
       - [The Ampere](#the-ampere)
       - [Kelvins](#kelvins)
-      - [Metric Prefixes](#metric-prefixes)
-      - [Known Ranges of Length, Mass, and Time](#known-ranges-of-length-mass-and-time)
     - [Using Scientific Notation with Physical Measurements](#using-scientific-notation-with-physical-measurements)
       - [Unit Conversion and Dimensional Analysis](#unit-conversion-and-dimensional-analysis)
     - [Accuracy, Precision and Significant Figures](#accuracy-precision-and-significant-figures)
@@ -121,9 +119,10 @@ A model is a representation of something which is too complex to be studied dire
 One such example is the model of atoms, because they are so small and fast-moving, our brains can't comprehend them directly. So we make models of them to study them. Like chemical stuctures being represented with models of the molecules.
 
 [comment]: <example image>
-<br><a title="Peter Murray-Rust, CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:NaCl_model_s.jpg"><br><img width="256" alt="NaCl model s" src="https://upload.wikimedia.org/wikipedia/commons/b/bf/NaCl_model_s.jpg"></a><br>
-<a href="https://commons.wikimedia.org/wiki/File:NaCl_model_s.jpg">Peter Murray-Rust</a>
-<a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, via Wikimedia Commons
+![Peter Murray-Rust, CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/b/bf/NaCl_model_s.jpg)
+
+[Peter Murray-Rust](https://commons.wikimedia.org/wiki/File:NaCl_model_s.jpg)
+[CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), via Wikimedia Commons
 
 ### Scientific Laws and Theories
 
@@ -143,23 +142,80 @@ Theories are explanations about the world which are supported by scientific evid
 
 ### The Role of Units
 
+We need to units to know how much there is.
+
+The measurements of physical quantities are expressed in terms of units, which are 
+standardized values.
+
++ How far away is New York from New Delhi? 
+  + The answer would be in **km**.
++ How much does the TV weight?
+  + The answer would be in **kg**.
+
+Now Imagine if we didn't have standardized units, and everyone used other means to convey the answers.
+
+So, for the first question; If someone answered in **length of my smallest hair**. Imagine how convenient that would be. We would have many confusions.
+*How do we know the size on his hair?*
+
+This is the exact reason we have standardized units. They are called ***International System of Units (SI)*** 
 ### SI Units: Fundamental and Derived Units
+In any system of units, the units for some physical quantities must be defined through a measurement process. These are called the base quantities for that system and their units are the system’s base units. All other physical quantities can then be expressed as algebraic combinations of the base quantities. Each of these physical quantities is then known as a derived quantity and each unit is called a derived unit.
+
+The choice of base quantities is somewhat arbitrary, as long as they are independent of each other and all other quantities can be derived from them.
+
+Based on such considerations, the International Standards Organization recommends using seven base quantities, which form the ***International System of Quantities (ISQ)***.
+
+
+| Quantity            | Name     | Symbol |
+| ------------------- | -------- | ------ |
+| Length              | Metre    | m      |
+| Mass                | Kilogram | kg     |
+| Time                | Second   | s      |
+| Electric Current    | Ampere   | a      |
+| Temperature         | Kelvin   | k      |
+| Amount of substance | Mole     | mol    |
+| Luminous intensity  | Candela  | cd     |
+
 
 #### The Meter
-
+- The SI unit for length is the meter (m).
+- In 1983, the meter was given its present definition as the distance light travels in a vacuum in ***1/ 299,792,458*** of a second.
 #### The Kilogram
-
+- The SI unit for mass is the kilogram (abbreviated kg).
+- it was previously defined to be the mass of a platinum-iridium cylinder kept with the old meter standard at the International Bureau of Weights and Measures near Paris.
+- In May 2019, the scientific community adopted a more stable definition of the kilogram. The kilogram is now defined in terms of the second, the meter, and Planck's constant, h (a quantum mechanical value that relates a photon's energy to its frequency.
 #### The Second
+- The SI unit for time is the second (s).
+- For many years it was defined as ***1/86,400*** of an average solar day. However, the average solar day is actually very gradually getting longer due to gradual slowing of Earth’s rotation.
+- Therefore, a new standard was adopted to define the second in terms of a non-varying, or constant, physical phenomenon. One constant phenomenon is the very steady vibration of Cesium atoms, which can be observed and counted. This vibration forms the basis of the cesium atomic clock. In 1967, the second was redefined as the time required for ***9,192,631,770 Cesium atom vibrations***
 
 #### The Ampere
+- The SI unit for current is the ampere(A), named after Andre Ampere..
+- One ampere is defined as the amount of electric current that will produce an attractive force of ***2.7 × 10–7 newton per meter*** of separation between the two wires (the newton is the derived unit of force).
 
 #### Kelvins
-
-#### Metric Prefixes
-
-#### Known Ranges of Length, Mass, and Time
+- The SI unit of temperature is the kelvin (or kelvins, but not degrees kelvin). This scale is named after physicist William Thomson, Lord Kelvin, who was the first to call for an absolute temperature scale.
+- The Kelvin scale is based on absolute zero. This is the point at which all thermal energy has been removed from all atoms or molecules in a system.
+- This temperature, 0 K, is equal to ***−273.15 °C*** and ***−459.67 °F***. 
+- Conveniently, the Kelvin scale actually changes in the same way as the Celsius scale. For example, the freezing point (0 °C) and boiling points of water (100 °C) are 100 degrees apart on the Celsius scale. These two temperatures are also 100 kelvins apart (freezing point = ***273.15 K***; boiling point = **373.15** K).
 
 ### Using Scientific Notation with Physical Measurements
+Scientific notation is a way of writing numbers that are too large or small to be conveniently written as a decimal.
+
+For example, the number $990000$ is too large to write down(tedious to read too).
+
+So, scientists came up with this method to write them.
+> $9.9 \times 10^5$
+
+Scientific notation follows this general format,
+
+> $x \times 10^y$
+
+This can be extended to fractions too,
+
+> $= \frac{2}{50}$ 
+> $= 0.04$
+> $= 4 \times 10^(\neg2)$
 
 #### Unit Conversion and Dimensional Analysis
 
