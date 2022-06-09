@@ -101,64 +101,43 @@ It is used in almost every engineering discipline. And it is also the foundation
 
 It is also used extensively in th medical field for diagnosing and treating diseases. For example, the knowledge of X-rays is used in finding broken bones and fractures. Ultrasound technology is used to image babies in their mother's womb.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## The Scientific Methods
 
 ### Scientific Methods
 
+Scientist often ask questions about the natural world and try to answer them. These may lead to natural laws which are intrinsic to the universe. Which means we can only understand and discover them. We should find the laws as they are and not what we want or imagined them to be.
+
+We all are very curious, We look around and make inferences about our environment. But when we get serious about science, We try to make precise observations and controlled experiments(If possible). write down our ideas about how they work. We can then form hypothesis and laws around them.
+
+It starts with scientist making an observation. The scientist observes a pattern in the natural world.
+Then they come up with a hypothesis which is a testable statement which describes how something in the natural world works. Then the scientist conducts experiments to test the hypothesis. If the hypothesis is true the scientist moves to the next one and if it turns out to be wrong the scientist tries to devise a new hypothesis based on the new data from the experiment. They also share their findings with other scientists.
+
+This is essentially the scientific method.
+
 ### Modelling
 
+A model is a representation of something which is too complex to be studied directly. Models can take the form of physical models, equations, computer programs, or simulations—computer graphics/animations.
+
+One such example is the model of atoms, because they are so small and fast-moving, our brains can't comprehend them directly. So we make models of them to study them. Like chemical stuctures being represented with models of the molecules.
+
+[comment]: <example image>
+<br><a title="Peter Murray-Rust, CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:NaCl_model_s.jpg"><br><img width="256" alt="NaCl model s" src="https://upload.wikimedia.org/wikipedia/commons/b/bf/NaCl_model_s.jpg"></a><br>
+<a href="https://commons.wikimedia.org/wiki/File:NaCl_model_s.jpg">Peter Murray-Rust</a>
+<a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, via Wikimedia Commons
+
 ### Scientific Laws and Theories
+
+A scientific law is a description of a pattern in nature that is true in all circumstances that have been studied. That is, physical laws are meant to be universal, meaning that they apply throughout the known universe.
+
+For example, newton's third law,
+
+> $F = ma$
+
+They can often be expressed as equations or a concise statement.
+
+Scientific ideas and explanations that are true in many, but not all situations in the universe are usually called principles. An example is Pascal’s principle, which explains properties of liquids, but not solids or gases.
+
+Theories are explanations about the world which are supported by scientific evidence and are verified by many scientists. Sometimes people confuse them with [hypothesis](#scientific-methods)
 
 ## The Language of Physics: Physical Quantities and Units
 
