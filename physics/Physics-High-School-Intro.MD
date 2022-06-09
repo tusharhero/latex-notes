@@ -11,6 +11,7 @@
       - [Modern Physics](#modern-physics)
         - [Theory of Relativity](#theory-of-relativity)
         - [Quantum Mechanics](#quantum-mechanics)
+  - [Application of Physics](#application-of-physics)
   - [The Scientific Methods](#the-scientific-methods)
     - [Scientific Methods](#scientific-methods)
     - [Modelling](#modelling)
@@ -92,7 +93,13 @@ When things get too **small** (a lot small) Classical physics stops being applic
 
 The properties and behaviour of these objects are described by Quantum Mechanics. This is also due to the fact that sub-atomic particles easily cross **1% the speed of light(`c`)** .
 
+## Application of Physics
 
+Physics is not only for scientists, It is also helpful for everyone. It can help people understand why 5G cant cause cancer and solve many confusions.
+
+It is used in almost every engineering discipline. And it is also the foundation of many other sciences, such as Biology and Chemistry.
+
+It is also used extensively in th medical field for diagnosing and treating diseases. For example, the knowledge of X-rays is used in finding broken bones and fractures. Ultrasound technology is used to image babies in their mother's womb.
 
 
 
