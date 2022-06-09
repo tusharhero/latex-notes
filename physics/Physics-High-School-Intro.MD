@@ -7,8 +7,10 @@
   - [Physics: Definitions and Applications](#physics-definitions-and-applications)
     - [What Physics Is](#what-physics-is)
     - [Physics: Past and Present](#physics-past-and-present)
-      - [Classical Physics:](#classical-physics)
-      - [Modern Physics:](#modern-physics)
+      - [Classical Physics](#classical-physics)
+      - [Modern Physics](#modern-physics)
+        - [Theory of Relativity](#theory-of-relativity)
+        - [Quantum Mechanics](#quantum-mechanics)
   - [The Scientific Methods](#the-scientific-methods)
     - [Scientific Methods](#scientific-methods)
     - [Modelling](#modelling)
@@ -59,7 +61,7 @@ This actually included almost every science we know, such as, Mathematics, Physi
 
 More info,
 
-#### Classical Physics:
+#### Classical Physics
 
 This refers to all the Physics we figured out between the **Renaissance** and the **end of 19th century**. It is a very good *approximation* of reality for objects which are *slower* than **1% the speed of light(`c`)** , large enough to be seen by our naked eyes and involve very weak gravity.
 
@@ -72,9 +74,25 @@ As these are the properties we observe in everyday items, this is good enough fo
 
 If the 3 conditions are mentioned before are not met, Classical Physics breaks and is not able to explain any phenomenon, such is the case with Atoms, Blackholes, etc.
 
-#### Modern Physics:
+#### Modern Physics
 
-Modern Physics was developed in the 20th century and it completely changed our understanding of the universe
+Modern Physics was developed in the 20th century and it completely changed our understanding of the universe.
+
+- Modern Physics includes 2 revolutionary theories namely:
+  - [The Theory of Relativity](#theory-of-relativity)
+  - [Quantum Mechanics](#quantum-mechanics)
+
+##### Theory of Relativity
+
+Theory of Relativity says that time and speed are not absolute and can be different for different people.
+
+##### Quantum Mechanics
+
+When things get too **small** (a lot small) Classical physics stops being applicable to them, some examples are atoms and sub-atomic particles.
+
+The properties and behaviour of these objects are described by Quantum Mechanics. This is also due to the fact that sub-atomic particles easily cross **1% the speed of light(`c`)** .
+
+
 
 
 
