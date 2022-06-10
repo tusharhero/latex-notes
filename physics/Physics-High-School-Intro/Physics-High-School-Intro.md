@@ -345,5 +345,6 @@ answer can be no greater than the number of significant digits in the least prec
 It is important to note that rules 1 and 2 are not the same, while the first one is talking about the number of significant figures. The second one is talking the number of number-places before and after the decimal point.
 
 Another thing to notice is that we should start thinking about the Significant Figures at the end of the calculation.
+
 ### Graphing in Physics
 *(Will write this later, for now use this [link]([https://](https://assets.openstax.org/oscms-prodcms/media/documents/Physics-WEB_Sab7RrQ.pdf#%5B%7B%22num%22%3A145%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C499%2C0%5D)))*
