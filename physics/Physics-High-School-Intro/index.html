@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Physics-High-School-Intro</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="physics-high-school-introduction">Physics High School
+Introduction</h1>
+<h3 id="table-of-contents">Table of Contents</h3>
+<ul>
+<li><a href="#physics-high-school-introduction">Physics High School
+Introduction</a>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#physics-definitions-and-applications">Physics: Definitions
+and Applications</a>
+<ul>
+<li><a href="#what-physics-is">What Physics Is</a></li>
+<li><a href="#physics-past-and-present">Physics: Past and Present</a>
+<ul>
+<li><a href="#classical-physics">Classical Physics</a></li>
+<li><a href="#modern-physics">Modern Physics</a>
+<ul>
+<li><a href="#theory-of-relativity">Theory of Relativity</a></li>
+<li><a href="#quantum-mechanics">Quantum Mechanics</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#application-of-physics">Application of Physics</a></li>
+<li><a href="#the-scientific-methods">The Scientific Methods</a>
+<ul>
+<li><a href="#scientific-methods">Scientific Methods</a></li>
+<li><a href="#modelling">Modelling</a></li>
+<li><a href="#scientific-laws-and-theories">Scientific Laws and
+Theories</a></li>
+</ul></li>
+<li><a href="#the-language-of-physics-physical-quantities-and-units">The
+Language of Physics: Physical Quantities and Units</a>
+<ul>
+<li><a href="#the-role-of-units">The Role of Units</a></li>
+<li><a href="#si-units-fundamental-and-derived-units">SI Units:
+Fundamental and Derived Units</a>
+<ul>
+<li><a href="#the-meter">The Meter</a></li>
+<li><a href="#the-kilogram">The Kilogram</a></li>
+<li><a href="#the-second">The Second</a></li>
+<li><a href="#the-ampere">The Ampere</a></li>
+<li><a href="#kelvins">Kelvins</a></li>
+</ul></li>
+<li><a
+href="#using-scientific-notation-with-physical-measurements">Using
+Scientific Notation with Physical Measurements</a>
+<ul>
+<li><a href="#unit-conversion-and-dimensional-analysis">Unit Conversion
+and Dimensional Analysis</a></li>
+</ul></li>
+<li><a href="#accuracy-precision-and-significant-figures">Accuracy,
+Precision and Significant Figures</a>
+<ul>
+<li><a href="#accuracy">Accuracy</a></li>
+<li><a href="#precision">Precision</a></li>
+<li><a href="#uncertainty">Uncertainty</a></li>
+<li><a href="#percent-uncertainty">Percent Uncertainty</a></li>
+<li><a href="#uncertainty-in-calculations">Uncertainty in
+Calculations</a></li>
+<li><a
+href="#precision-of-measuring-tools-and-significant-figures">Precision
+of Measuring Tools and Significant Figures</a></li>
+<li><a href="#zeros">Zeros</a></li>
+<li><a href="#significant-figures-in-calculations">Significant Figures
+in Calculations</a></li>
+</ul></li>
+<li><a href="#graphing-in-physics">Graphing in Physics</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="physics-definitions-and-applications">Physics: Definitions and
+Applications</h2>
+<h3 id="what-physics-is">What Physics Is</h3>
+<p>Physics is a branch of science which explains how our universe
+fundamentally works.</p>
+<p>The word ‘science’ comes from a <em>latin</em> which means
+<strong>‘having knowledge’</strong>. And it refers to the knowledge of
+how the physical world operates, based on the objective(not subjective)
+evidence obtained through experimentation and observation. And any
+scientific explanation must be testable. That is why
+<code>"God created the universe."</code> is not a scientific
+explanation, because It is not testable. While on the other hand,
+<code>"Humans and Monkeys share a common ancestor."</code> is a testable
+statement and hence scientific.</p>
+<p>So, physics refers to the knowledge of how the fundamental aspects of
+our universe work. Physics involves the study of Electricity to
+Acoustics (Study of Science) , from Astronomy to Particle Physics, from
+Quantum Mechanics to Relativity.</p>
+<p>We can see how diverse and broad physics is.</p>
+<h3 id="physics-past-and-present">Physics: Past and Present</h3>
+<p>The word <code>'Physics'</code> is thought to have come from the
+greek word <code>'Phusis'</code> meaning <em>‘nature’</em>. So, it meant
+the <strong>study of nature</strong> or <em>Natural philosophy</em> .
+This actually included almost every science we know, such as,
+Mathematics, Physics, Biology, Chemistry, Medicine ,etc to name a few.
+But as time passed by these started to specialize into their own
+branches of Science.</p>
+<ul>
+<li>Physics is broadly divided into 2 parts:
+<ul>
+<li><a href="#classical-physics">Classical Physics</a></li>
+<li><a href="#modern-physics">Modern Physics</a></li>
+</ul></li>
+</ul>
+<p>More info,</p>
+<h4 id="classical-physics">Classical Physics</h4>
+<p>This refers to all the Physics we figured out between the
+<strong>Renaissance</strong> and the <strong>end of 19th
+century</strong>. It is a very good <em>approximation</em> of reality
+for objects which are <em>slower</em> than <strong>1% the speed of
+light(<code>c</code>)</strong> , large enough to be seen by our naked
+eyes and involve very weak gravity.</p>
+<p>As these are the properties we observe in everyday items, this is
+good enough for our day to day life.</p>
+<ul>
+<li>Classical Physics includes:
+<ul>
+<li>Newton’s law of Gravitation</li>
+<li>Newton’s laws of motion</li>
+<li>Classical Electricity</li>
+</ul></li>
+</ul>
+<p>If the 3 conditions are mentioned before are not met, Classical
+Physics breaks and is not able to explain any phenomenon, such is the
+case with Atoms, Blackholes, etc.</p>
+<h4 id="modern-physics">Modern Physics</h4>
+<p>Modern Physics was developed in the 20th century and it completely
+changed our understanding of the universe.</p>
+<ul>
+<li>Modern Physics includes 2 revolutionary theories namely:
+<ul>
+<li><a href="#theory-of-relativity">The Theory of Relativity</a></li>
+<li><a href="#quantum-mechanics">Quantum Mechanics</a></li>
+</ul></li>
+</ul>
+<h5 id="theory-of-relativity">Theory of Relativity</h5>
+<p>Theory of Relativity says that time and speed are not absolute and
+can be different for different people.</p>
+<h5 id="quantum-mechanics">Quantum Mechanics</h5>
+<p>When things get too <strong>small</strong> (a lot small) Classical
+physics stops being applicable to them, some examples are atoms and
+sub-atomic particles.</p>
+<p>The properties and behaviour of these objects are described by
+Quantum Mechanics. This is also due to the fact that sub-atomic
+particles easily cross <strong>1% the speed of
+light(<code>c</code>)</strong> .</p>
+<h2 id="application-of-physics">Application of Physics</h2>
+<p>Physics is not only for scientists, It is also helpful for everyone.
+It can help people understand why 5G cant cause cancer and solve many
+confusions.</p>
+<p>It is used in almost every engineering discipline. And it is also the
+foundation of many other sciences, such as Biology and Chemistry.</p>
+<p>It is also used extensively in th medical field for diagnosing and
+treating diseases. For example, the knowledge of X-rays is used in
+finding broken bones and fractures. Ultrasound technology is used to
+image babies in their mother’s womb.</p>
+<h2 id="the-scientific-methods">The Scientific Methods</h2>
+<h3 id="scientific-methods">Scientific Methods</h3>
+<p>Scientist often ask questions about the natural world and try to
+answer them. These may lead to natural laws which are intrinsic to the
+universe. Which means we can only understand and discover them. We
+should find the laws as they are and not what we want or imagined them
+to be.</p>
+<p>We all are very curious, We look around and make inferences about our
+environment. But when we get serious about science, We try to make
+precise observations and controlled experiments(If possible). write down
+our ideas about how they work. We can then form hypothesis and laws
+around them.</p>
+<p>It starts with scientist making an observation. The scientist
+observes a pattern in the natural world. Then they come up with a
+hypothesis which is a testable statement which describes how something
+in the natural world works. Then the scientist conducts experiments to
+test the hypothesis. If the hypothesis is true the scientist moves to
+the next one and if it turns out to be wrong the scientist tries to
+devise a new hypothesis based on the new data from the experiment. They
+also share their findings with other scientists.</p>
+<p>This is essentially the scientific method.</p>
+<h3 id="modelling">Modelling</h3>
+<p>A model is a representation of something which is too complex to be
+studied directly. Models can take the form of physical models,
+equations, computer programs, or simulations—computer
+graphics/animations.</p>
+<p>One such example is the model of atoms, because they are so small and
+fast-moving, our brains can’t comprehend them directly. So we make
+models of them to study them. Like chemical stuctures being represented
+with models of the molecules.</p>
+<figure>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/b/bf/NaCl_model_s.jpg"
+alt="Peter Murray-Rust, CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" />
+<figcaption aria-hidden="true">Peter Murray-Rust, CC BY-SA 2.5
+&lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia
+Commons</figcaption>
+</figure>
+<p><a
+href="https://commons.wikimedia.org/wiki/File:NaCl_model_s.jpg">Peter
+Murray-Rust</a> <a
+href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>,
+via Wikimedia Commons</p>
+<h3 id="scientific-laws-and-theories">Scientific Laws and Theories</h3>
+<p>A scientific law is a description of a pattern in nature that is true
+in all circumstances that have been studied. That is, physical laws are
+meant to be universal, meaning that they apply throughout the known
+universe.</p>
+<p>For example, newton’s third law,</p>
+<blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20F%20%3D%20ma"
+alt="F = ma" title="F = ma" class="math inline" /></p>
+</blockquote>
+<p>They can often be expressed as equations or a concise statement.</p>
+<p>Scientific ideas and explanations that are true in many, but not all
+situations in the universe are usually called principles. An example is
+Pascal’s principle, which explains properties of liquids, but not solids
+or gases.</p>
+<p>Theories are explanations about the world which are supported by
+scientific evidence and are verified by many scientists. Sometimes
+people confuse them with <a
+href="#scientific-methods">hypothesis</a></p>
+<h2 id="the-language-of-physics-physical-quantities-and-units">The
+Language of Physics: Physical Quantities and Units</h2>
+<h3 id="the-role-of-units">The Role of Units</h3>
+<p>We need to units to know how much there is.</p>
+<p>The measurements of physical quantities are expressed in terms of
+units, which are standardized values.</p>
+<ul>
+<li>How far away is New York from New Delhi?
+<ul>
+<li>The answer would be in <strong>km</strong>.</li>
+</ul></li>
+<li>How much does the TV weight?
+<ul>
+<li>The answer would be in <strong>kg</strong>.</li>
+</ul></li>
+</ul>
+<p>Now Imagine if we didn’t have standardized units, and everyone used
+other means to convey the answers.</p>
+<p>So, for the first question; If someone answered in <strong>length of
+my smallest hair</strong>. Imagine how convenient that would be. We
+would have many confusions. <em>How do we know the size on his
+hair?</em></p>
+<p>This is the exact reason we have standardized units. They are called
+<strong><em>International System of Units (SI)</em></strong> ### SI
+Units: Fundamental and Derived Units In any system of units, the units
+for some physical quantities must be defined through a measurement
+process. These are called the base quantities for that system and their
+units are the system’s base units. All other physical quantities can
+then be expressed as algebraic combinations of the base quantities. Each
+of these physical quantities is then known as a derived quantity and
+each unit is called a derived unit.</p>
+<p>The choice of base quantities is somewhat arbitrary, as long as they
+are independent of each other and all other quantities can be derived
+from them.</p>
+<p>Based on such considerations, the International Standards
+Organization recommends using seven base quantities, which form the
+<strong><em>International System of Quantities (ISQ)</em></strong>.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Quantity</th>
+<th>Name</th>
+<th>Symbol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Length</td>
+<td>Metre</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td>Mass</td>
+<td>Kilogram</td>
+<td>kg</td>
+</tr>
+<tr class="odd">
+<td>Time</td>
+<td>Second</td>
+<td>s</td>
+</tr>
+<tr class="even">
+<td>Electric Current</td>
+<td>Ampere</td>
+<td>a</td>
+</tr>
+<tr class="odd">
+<td>Temperature</td>
+<td>Kelvin</td>
+<td>k</td>
+</tr>
+<tr class="even">
+<td>Amount of substance</td>
+<td>Mole</td>
+<td>mol</td>
+</tr>
+<tr class="odd">
+<td>Luminous intensity</td>
+<td>Candela</td>
+<td>cd</td>
+</tr>
+</tbody>
+</table>
+<h4 id="the-meter">The Meter</h4>
+<ul>
+<li>The SI unit for length is the meter (m).</li>
+<li>In 1983, the meter was given its present definition as the distance
+light travels in a vacuum in <strong><em>1/ 299,792,458</em></strong> of
+a second. #### The Kilogram</li>
+<li>The SI unit for mass is the kilogram (abbreviated kg).</li>
+<li>it was previously defined to be the mass of a platinum-iridium
+cylinder kept with the old meter standard at the International Bureau of
+Weights and Measures near Paris.</li>
+<li>In May 2019, the scientific community adopted a more stable
+definition of the kilogram. The kilogram is now defined in terms of the
+second, the meter, and Planck’s constant, h (a quantum mechanical value
+that relates a photon’s energy to its frequency. #### The Second</li>
+<li>The SI unit for time is the second (s).</li>
+<li>For many years it was defined as <strong><em>1/86,400</em></strong>
+of an average solar day. However, the average solar day is actually very
+gradually getting longer due to gradual slowing of Earth’s
+rotation.</li>
+<li>Therefore, a new standard was adopted to define the second in terms
+of a non-varying, or constant, physical phenomenon. One constant
+phenomenon is the very steady vibration of Cesium atoms, which can be
+observed and counted. This vibration forms the basis of the cesium
+atomic clock. In 1967, the second was redefined as the time required for
+<strong><em>9,192,631,770 Cesium atom vibrations</em></strong></li>
+</ul>
+<h4 id="the-ampere">The Ampere</h4>
+<ul>
+<li>The SI unit for current is the ampere(A), named after Andre
+Ampere..</li>
+<li>One ampere is defined as the amount of electric current that will
+produce an attractive force of <strong><em>2.7 × 10–7 newton per
+meter</em></strong> of separation between the two wires (the newton is
+the derived unit of force).</li>
+</ul>
+<h4 id="kelvins">Kelvins</h4>
+<ul>
+<li>The SI unit of temperature is the kelvin (or kelvins, but not
+degrees kelvin). This scale is named after physicist William Thomson,
+Lord Kelvin, who was the first to call for an absolute temperature
+scale.</li>
+<li>The Kelvin scale is based on absolute zero. This is the point at
+which all thermal energy has been removed from all atoms or molecules in
+a system.</li>
+<li>This temperature, 0 K, is equal to <strong><em>−273.15
+°C</em></strong> and <strong><em>−459.67 °F</em></strong>.</li>
+<li>Conveniently, the Kelvin scale actually changes in the same way as
+the Celsius scale. For example, the freezing point (0 °C) and boiling
+points of water (100 °C) are 100 degrees apart on the Celsius scale.
+These two temperatures are also 100 kelvins apart (freezing point =
+<strong><em>273.15 K</em></strong>; boiling point =
+<strong>373.15</strong> K).</li>
+</ul>
+<h3 id="using-scientific-notation-with-physical-measurements">Using
+Scientific Notation with Physical Measurements</h3>
+<p>Scientific notation is a way of writing numbers that are too large or
+small to be conveniently written as a decimal.</p>
+<p>For example, the number <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20990000"
+alt="990000" title="990000" class="math inline" /> is too large to write
+down(tedious to read too).</p>
+<p>So, scientists came up with this method to write them. &gt; <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%209.9%20%5Ctimes%2010%5E5"
+alt="9.9 \times 10^5" title="9.9 \times 10^5" class="math inline" /></p>
+<p>Scientific notation follows this general format,</p>
+<blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20x%20%5Ctimes%2010%5Ey"
+alt="x \times 10^y" title="x \times 10^y" class="math inline" /></p>
+</blockquote>
+<p>This can be extended to fractions too,</p>
+<blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%3D%20%5Cfrac%7B2%7D%7B50%7D"
+alt="= \frac{2}{50}" title="= \frac{2}{50}" class="math inline" /> <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%3D%200.04"
+alt="= 0.04" title="= 0.04" class="math inline" /> <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%3D%204%20%5Ctimes%2010%5E%20%7B-2%7D"
+alt="= 4 \times 10^ {-2}" title="= 4 \times 10^ {-2}"
+class="math inline" /></p>
+</blockquote>
+<p>The term order of magnitude refers to the power of 10 when numbers
+are expressed in scientific notation. Quantities that have the same
+power of 10 when expressed in scientific notation, or come close to it,
+are said to be of the same order of magnitude. For example, the number
+800 can be written as 8 102, and the number 450 can be written as 4.5
+102. Both numbers have the same value for y. Therefore, 800 and 450 are
+of the same order of magnitude. Similarly, 101 and 99 would be regarded
+as the same order of magnitude, 102.</p>
+<h4 id="unit-conversion-and-dimensional-analysis">Unit Conversion and
+Dimensional Analysis</h4>
+<p>To convert one unit to another for example, &gt; <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20v%20%3D%20%5Cfrac%7B1m%7D%7B1s%7D"
+alt="v = \frac{1m}{1s}" title="v = \frac{1m}{1s}"
+class="math inline" /></p>
+<p>We need to convert it to <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Cfrac%7Bkm%7D%7Bh%7D"
+alt="\frac{km}{h}" title="\frac{km}{h}" class="math inline" /></p>
+<p>We can try converting it by substituion i’e by letting <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%201m%20%3D%20%5Cfrac%7B1km%7D%7B1000%7D"
+alt="1m = \frac{1km}{1000}" title="1m = \frac{1km}{1000}"
+class="math inline" /> , and <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%201s%20%3D%20%5Cfrac%7B1h%7D%7B3600%7D"
+alt="1s = \frac{1h}{3600}" title="1s = \frac{1h}{3600}"
+class="math inline" /></p>
+<p>But there is a better way,</p>
+<p>We know that <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%201000m%20%3D%201km"
+alt="1000m = 1km" title="1000m = 1km" class="math inline" /> and <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%203600s%20%3D%201h"
+alt="3600s = 1h" title="3600s = 1h" class="math inline" /></p>
+<p>Therefore,</p>
+<blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Cfrac%7B1km%7D%7B1000m%7D%20%3D%201"
+alt="\frac{1km}{1000m} = 1" title="\frac{1km}{1000m} = 1"
+class="math inline" /></p>
+</blockquote>
+<blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Cfrac%7B1h%7D%7B3600s%7D%20%3D%201"
+alt="\frac{1h}{3600s} = 1" title="\frac{1h}{3600s} = 1"
+class="math inline" /></p>
+</blockquote>
+<p>We also know that <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%201" alt="1"
+title="1" class="math inline" /> multiplied by anything is the number
+itself.</p>
+<p>If we can multiply them to anything without changing their value.</p>
+<blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20v%20%3D%20%5Cfrac%7B1m%7D%7B1s%7D%20%5Ctimes%20%5Cfrac%7B1km%7D%7B1000m%7D%20%5Ctimes%20%5Cfrac%7B3600s%7D%7B1h%7D"
+alt="v = \frac{1m}{1s} \times \frac{1km}{1000m} \times \frac{3600s}{1h}"
+title="v = \frac{1m}{1s} \times \frac{1km}{1000m} \times \frac{3600s}{1h}"
+class="math inline" /></p>
+</blockquote>
+<blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%3D%20%5Cfrac%7B1%7D%7B1%7D%20%5Ctimes%20%5Cfrac%7B1km%7D%7B1000%7D%20%5Ctimes%20%5Cfrac%7B3600%7D%7B1h%7D"
+alt="= \frac{1}{1} \times \frac{1km}{1000} \times \frac{3600}{1h}"
+title="= \frac{1}{1} \times \frac{1km}{1000} \times \frac{3600}{1h}"
+class="math inline" /></p>
+</blockquote>
+<blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%3D%20%5Cfrac%7B1km%7D%7B1000%7D%20%5Ctimes%20%5Cfrac%7B3600%7D%7B1h%7D"
+alt="= \frac{1km}{1000} \times \frac{3600}{1h}"
+title="= \frac{1km}{1000} \times \frac{3600}{1h}"
+class="math inline" /></p>
+</blockquote>
+<blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%3D%20%5Cfrac%7B3600km%7D%7B1000h%7D"
+alt="= \frac{3600km}{1000h}" title="= \frac{3600km}{1000h}"
+class="math inline" /></p>
+</blockquote>
+<blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20v%20%3D%20%5Cfrac%7B3.6km%7D%7Bh%7D"
+alt="v = \frac{3.6km}{h}" title="v = \frac{3.6km}{h}"
+class="math inline" /></p>
+</blockquote>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Cfrac%7B1km%7D%7B1000m%7D%20%3D%201"
+alt="\frac{1km}{1000m} = 1" title="\frac{1km}{1000m} = 1"
+class="math inline" /> is a conversion factor.</p>
+<p>A conversion factor is a ratio expressing how many of one unit are
+equal to another unit.</p>
+<h3 id="accuracy-precision-and-significant-figures">Accuracy, Precision
+and Significant Figures</h3>
+<p>Science is based on experimentation that requires good measurements.
+The validity of a measurement can be described in terms of its accuracy
+and its precision.</p>
+<h4 id="accuracy">Accuracy</h4>
+<p>Accuracy refers to how close the measured values are to the actual
+value.</p>
+<h4 id="precision">Precision</h4>
+<p>Precision refers to how close the measured values are to each other
+(regardless of the actual value).</p>
+<p><a
+href="https://commons.wikimedia.org/wiki/File:High_precision_Low_accuracy.svg"
+title="DarkEvil, Public domain, via Wikimedia Commons"><img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/High_precision_Low_accuracy.svg/256px-High_precision_Low_accuracy.svg.png"
+alt="High precision Low accuracy" /></a></p>
+<p><code>High precision Low accuracy</code></p>
+<p><a
+href="https://commons.wikimedia.org/wiki/File:High_accuracy_Low_precision.svg"
+title="DarkEvil, Public domain, via Wikimedia Commons"><img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/High_accuracy_Low_precision.svg/256px-High_accuracy_Low_precision.svg.png"
+alt="High accuracy Low precision" /></a></p>
+<p><code>High accuracy Low precision</code></p>
+<p><a
+href="https://commons.wikimedia.org/wiki/File:High_accuracy,_high_precision.jpg"
+title="Q50005, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons"><img
+src="https://upload.wikimedia.org/wikipedia/commons/6/6c/High_accuracy%2C_high_precision.jpg"
+alt="High accuracy, high precision" /></a></p>
+<p><code>High accuracy, high precision</code></p>
+<h4 id="uncertainty">Uncertainty</h4>
+<p>The accuracy and precision of a measuring system determine the
+uncertainty of its measurements.</p>
+<p>Uncertainty is a way to describe how much your measured value
+deviates from the actual value that the object has.</p>
+<p>In more general terms, uncertainty can be thought ofas a disclaimer
+for your measured values. For example, if someone asked you to provide
+the mileage on your car, you might say that it is 45,000 miles, plus or
+minus 500 miles. The plus or minus amount is the uncertainty in your
+value.</p>
+<p>The uncertainty in a measurement, A, is often denoted as δA (“delta
+A”).</p>
+<p>The factors contributing to uncertainty in a measurement include the
+following: 1. Limitations of the measuring device 2. The skill of the
+person making the measurement 3. Irregularities in the object being
+measured 4. Any other factors that affect the outcome (highly dependent
+on the situation)</p>
+<h4 id="percent-uncertainty">Percent Uncertainty</h4>
+<p>One method of expressing uncertainty is as a percent of the measured
+value. If a measurement, A, is expressed with uncertainty, δA, the
+percent uncertainty is &gt; <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5C%25%5Cdelta%20%3D%20%5Cfrac%7B%5Cdelta%7D%7BA%7D%20%5Ctimes%20100%5C%25"
+alt="\%\delta = \frac{\delta}{A} \times 100\%"
+title="\%\delta = \frac{\delta}{A} \times 100\%"
+class="math inline" /></p>
+<h4 id="uncertainty-in-calculations">Uncertainty in Calculations</h4>
+<p>There is an uncertainty in anything calculated from measured
+quantities. If we calculate the area of an Rectangle from measured
+values by multiplying, what will be uncertainty in the area? If we are
+talking about small uncertainties, We can take the sum of the percent
+errors this is called the <strong><em>method of adding
+percents</em></strong>.</p>
+<p>For example, if a floor has a length of <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%204.00%20m"
+alt="4.00 m" title="4.00 m" class="math inline" /> and a width of <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%203.00%20m"
+alt="3.00 m" title="3.00 m" class="math inline" />, with uncertainties
+of <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%202%5C%25"
+alt="2\%" title="2\%" class="math inline" /> and <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%201%5C%25"
+alt="1\%" title="1\%" class="math inline" />, respectively, then the
+area of the floor is <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%2012.0%20m%5E2"
+alt="12.0 m^2" title="12.0 m^2" class="math inline" /> and has an
+uncertainty of <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%203%20%5C%25"
+alt="3 \%" title="3 \%" class="math inline" /> (expressed as an area
+this is <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%200.36%20m%5E2"
+alt="0.36 m^2" title="0.36 m^2" class="math inline" />, which we round
+to <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%200.4%20m%5E2"
+alt="0.4 m^2" title="0.4 m^2" class="math inline" /> since the area of
+the floor is given to a tenth of a square meter).</p>
+<h4 id="precision-of-measuring-tools-and-significant-figures">Precision
+of Measuring Tools and Significant Figures</h4>
+<p>An important factor in the accuracy and precision of measurements is
+the precision of the measuring tool. The more precise the measuring
+tool, the more precise and accurate the measurements can be.</p>
+<p>Suppose we measure a pencil to be <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%205cm" alt="5cm"
+title="5cm" class="math inline" /> using a ruler which has has 1 cm
+increments, we can’t really be sure if it is exactly <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%205cm" alt="5cm"
+title="5cm" class="math inline" /> because it can be <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%205.1cm"
+alt="5.1cm" title="5.1cm" class="math inline" /> or <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%204.9cm"
+alt="4.9cm" title="4.9cm" class="math inline" /> too, if we use a more
+precise ruler(With smaller increments). We might find it to be <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%205.1cm"
+alt="5.1cm" title="5.1cm" class="math inline" />, we can be sure that it
+is <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%205.1cm"
+alt="5.1cm" title="5.1cm" class="math inline" /> but still we don’t know
+if it is exactly <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%205.1cm"
+alt="5.1cm" title="5.1cm" class="math inline" /> it might be <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%205.09cm"
+alt="5.09cm" title="5.09cm" class="math inline" /> or <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%205.01cm"
+alt="5.01cm" title="5.01cm" class="math inline" />.</p>
+<p>In our first measurement, there is only one <em>Significant
+Figure</em> and in the second measurement there are two.</p>
+<p>The number of significant figures in a measurement indicates the
+precision of the measuring tool. The more precise a measuring tool is,
+the greater the number of significant figures it can report.</p>
+<h4 id="zeros">Zeros</h4>
+<p>Zeros are given special consideration when counting <a
+href="#precision-of-measuring-tools-and-significant-figures"><code>Sig figs</code></a>.</p>
+<p>For example, the zeros in <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%200.009"
+alt="0.009" title="0.009" class="math inline" /> are not significant.
+But the zeros in <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%2010.69"
+alt="10.69" title="10.69" class="math inline" /> are.</p>
+<p>As a rule of thumb, If the zeros are not visible in the <a
+href="#using-scientific-notation-with-physical-measurements">Scientific
+Notation</a>. Then they are not significant. If we go back to our
+example <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%200.009%20%3D%209%20%5Ctimes%2010%5E%7B-3%7D"
+alt="0.009 = 9 \times 10^{-3}" title="0.009 = 9 \times 10^{-3}"
+class="math inline" /> and we cant see any zeros here. If we do the
+other example , i’e <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%2010.69%20%3D%201.069%20%5Ctimes%2010%5E%7B1%7D"
+alt="10.69 = 1.069 \times 10^{1}" title="10.69 = 1.069 \times 10^{1}"
+class="math inline" />. We can still see the zeros this time.</p>
+<p>As a side note, If a measurement specifically has a zero in the
+scientific notation, It means that zero is actually significant. And if
+we find ourselves a measurement like <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%201.0%20m"
+alt="1.0 m" title="1.0 m" class="math inline" /> the zero here is
+significant and not just a trivial detail.</p>
+<h4 id="significant-figures-in-calculations">Significant Figures in
+Calculations</h4>
+<p>When combining measurements with different degrees of accuracy and
+precision, the number of significant digits in the final answer can be
+no greater than the number of significant digits in the least precise
+measured value.</p>
+<ol type="1">
+<li>For Multiplication and Divison; the same number of significant
+significant digits as in the least precise value.</li>
+<li>For Addition and Subtraction; the answer should have the same number
+places (e.g. tens place, ones place, tenths place, etc.) as the
+least-precise starting value.</li>
+</ol>
+<p>It is important to note that rules 1 and 2 are not the same, while
+the first one is talking about the number of significant figures. The
+second one is talking the number of number-places before and after the
+decimal point.</p>
+<p>Another thing to notice is that we should start thinking about the
+Significant Figures at the end of the calculation.</p>
+<h3 id="graphing-in-physics">Graphing in Physics</h3>
+<p><em>(Will write this later, for now use this <a
+href="%5Bhttps://%5D(https://assets.openstax.org/oscms-prodcms/media/documents/Physics-WEB_Sab7RrQ.pdf#%5B%7B%22num%22%3A145%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C499%2C0%5D)">link</a>)</em></p>
+</body>
+</html>
