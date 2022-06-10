@@ -130,7 +130,7 @@ A scientific law is a description of a pattern in nature that is true in all cir
 
 For example, newton's third law,
 
-> $F = ma$
+> <!-- $F = ma$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?F%20%3D%20ma">
 
 They can often be expressed as equations or a concise statement.
 
@@ -202,20 +202,20 @@ Based on such considerations, the International Standards Organization recommend
 ### Using Scientific Notation with Physical Measurements
 Scientific notation is a way of writing numbers that are too large or small to be conveniently written as a decimal.
 
-For example, the number $990000$ is too large to write down(tedious to read too).
+For example, the number <!-- $990000$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?990000"> is too large to write down(tedious to read too).
 
 So, scientists came up with this method to write them.
-> $9.9 \times 10^5$
+> <!-- $9.9 \times 10^5$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?9.9%20%5Ctimes%2010%5E5">
 
 Scientific notation follows this general format,
 
-> $x \times 10^y$
+> <!-- $x \times 10^y$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?x%20%5Ctimes%2010%5Ey">
 
 This can be extended to fractions too,
 
-> $= \frac{2}{50}$ 
-> $= 0.04$
-> $= 4 \times 10^ {-2}$
+> <!-- $= \frac{2}{50}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%3D%20%5Cfrac%7B2%7D%7B50%7D"> 
+> <!-- $= 0.04$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%3D%200.04">
+> <!-- $= 4 \times 10^ {-2}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%3D%204%20%5Ctimes%2010%5E%20%7B-2%7D">
 
 The term order of magnitude refers to the power of 10 when numbers are expressed in scientific notation. 
 Quantities that have the same power of 10 when expressed in scientific notation, or come close to it, are said to be of the same order of magnitude.
@@ -226,38 +226,38 @@ same order of magnitude, 102.
 #### Unit Conversion and Dimensional Analysis
 
 To convert one unit to another for example, 
-> $v = \frac{1m}{1s}$
+> <!-- $v = \frac{1m}{1s}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?v%20%3D%20%5Cfrac%7B1m%7D%7B1s%7D">
 
-We need to convert it to $\frac{km}{h}$
+We need to convert it to <!-- $\frac{km}{h}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%5Cfrac%7Bkm%7D%7Bh%7D">
 
-We can try converting it by substituion i'e by letting $1m = \frac{1km}{1000}$ , and $1s = \frac{1h}{3600}$
+We can try converting it by substituion i'e by letting <!-- $1m = \frac{1km}{1000}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?1m%20%3D%20%5Cfrac%7B1km%7D%7B1000%7D"> , and <!-- $1s = \frac{1h}{3600}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?1s%20%3D%20%5Cfrac%7B1h%7D%7B3600%7D">
 
 But there is a better way, 
 
-We know that $1000m = 1km$ and $3600s = 1h$
+We know that <!-- $1000m = 1km$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?1000m%20%3D%201km"> and <!-- $3600s = 1h$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?3600s%20%3D%201h">
 
 Therefore, 
 
-> $\frac{1km}{1000m} = 1$
+> <!-- $\frac{1km}{1000m} = 1$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%5Cfrac%7B1km%7D%7B1000m%7D%20%3D%201">
 
-> $\frac{1h}{3600s} = 1$
+> <!-- $\frac{1h}{3600s} = 1$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%5Cfrac%7B1h%7D%7B3600s%7D%20%3D%201">
 
 
-We also know that $1$ multiplied by anything is the number itself.
+We also know that <!-- $1$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?1"> multiplied by anything is the number itself.
 
 If we can multiply them to anything without changing their value.
 
-> $v = \frac{1m}{1s} \times \frac{1km}{1000m} \times \frac{3600s}{1h}$
+> <!-- $v = \frac{1m}{1s} \times \frac{1km}{1000m} \times \frac{3600s}{1h}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?v%20%3D%20%5Cfrac%7B1m%7D%7B1s%7D%20%5Ctimes%20%5Cfrac%7B1km%7D%7B1000m%7D%20%5Ctimes%20%5Cfrac%7B3600s%7D%7B1h%7D">
 
-> $= \frac{1}{1} \times \frac{1km}{1000} \times \frac{3600}{1h}$
+> <!-- $= \frac{1}{1} \times \frac{1km}{1000} \times \frac{3600}{1h}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%3D%20%5Cfrac%7B1%7D%7B1%7D%20%5Ctimes%20%5Cfrac%7B1km%7D%7B1000%7D%20%5Ctimes%20%5Cfrac%7B3600%7D%7B1h%7D">
 
-> $= \frac{1km}{1000} \times \frac{3600}{1h}$
+> <!-- $= \frac{1km}{1000} \times \frac{3600}{1h}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%3D%20%5Cfrac%7B1km%7D%7B1000%7D%20%5Ctimes%20%5Cfrac%7B3600%7D%7B1h%7D">
 
-> $= \frac{3600km}{1000h}$
+> <!-- $= \frac{3600km}{1000h}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%3D%20%5Cfrac%7B3600km%7D%7B1000h%7D">
 
-> $v = \frac{3.6km}{h}$
+> <!-- $v = \frac{3.6km}{h}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?v%20%3D%20%5Cfrac%7B3.6km%7D%7Bh%7D">
 
-$\frac{1km}{1000m} = 1$ is a conversion factor.
+<!-- $\frac{1km}{1000m} = 1$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%5Cfrac%7B1km%7D%7B1000m%7D%20%3D%201"> is a conversion factor.
 
 A conversion factor is a ratio expressing how many of one unit are equal to another unit.
 
@@ -305,20 +305,20 @@ The factors contributing to uncertainty in a measurement include the following:
 
 One method of expressing uncertainty is as a percent of the measured value. If a measurement, A, is expressed with uncertainty,
 δA, the percent uncertainty is 
-> $\%\delta = \frac{\delta}{A} \times 100\%$
+> <!-- $\%\delta = \frac{\delta}{A} \times 100\%$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?%5C%25%5Cdelta%20%3D%20%5Cfrac%7B%5Cdelta%7D%7BA%7D%20%5Ctimes%20100%5C%25">
 
 #### Uncertainty in Calculations
 There is an uncertainty in anything calculated from measured quantities. If we calculate the area of an Rectangle from measured values by multiplying, what will be uncertainty in the area? If we are talking about small uncertainties, We can take the sum of the percent errors this is called the ***method of adding percents***.
 
-For example, if a floor has a length of $4.00 m$ and a width of $3.00 m$, with uncertainties of $2\%$ and $1\%$, respectively, then the area of the floor is $12.0 m^2$ and has an uncertainty of $3 \%$ (expressed as an area this is $0.36
-m^2$, which we round to $0.4 m^2$ since the area of the floor is given to a tenth of a square meter).
+For example, if a floor has a length of <!-- $4.00 m$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?4.00%20m"> and a width of <!-- $3.00 m$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?3.00%20m">, with uncertainties of <!-- $2\%$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?2%5C%25"> and <!-- $1\%$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?1%5C%25">, respectively, then the area of the floor is <!-- $12.0 m^2$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?12.0%20m%5E2"> and has an uncertainty of <!-- $3 \%$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?3%20%5C%25"> (expressed as an area this is $0.36
+m^2$, which we round to <!-- $0.4 m^2$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?0.4%20m%5E2"> since the area of the floor is given to a tenth of a square meter).
 
 
 #### Precision of Measuring Tools and Significant Figures
 
 An important factor in the accuracy and precision of measurements is the precision of the measuring tool. The more precise the measuring tool, the more precise and accurate the measurements can be.
 
-Suppose we measure a pencil to be $5cm$ using a ruler which has has 1 cm increments, we can't really be sure if it is exactly $5cm$ because it can be $5.1cm$ or $4.9cm$ too, if we use a more precise ruler(With smaller increments). We might find it to be $5.1cm$, we can be sure that it is $5.1cm$ but still we don't know if it is exactly $5.1cm$ it might be $5.09cm$ or $5.01cm$.
+Suppose we measure a pencil to be <!-- $5cm$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?5cm"> using a ruler which has has 1 cm increments, we can't really be sure if it is exactly <!-- $5cm$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?5cm"> because it can be <!-- $5.1cm$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?5.1cm"> or <!-- $4.9cm$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?4.9cm"> too, if we use a more precise ruler(With smaller increments). We might find it to be <!-- $5.1cm$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?5.1cm">, we can be sure that it is <!-- $5.1cm$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?5.1cm"> but still we don't know if it is exactly <!-- $5.1cm$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?5.1cm"> it might be <!-- $5.09cm$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?5.09cm"> or <!-- $5.01cm$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?5.01cm">.
 
 In our first measurement, there is only one *Significant Figure* and in the second measurement there are two.
 
@@ -329,11 +329,11 @@ The number of significant figures in a measurement indicates the precision of th
 
 Zeros are given special consideration when counting [`Sig figs`](#precision-of-measuring-tools-and-significant-figures).
 
-For example, the zeros in $0.009$ are not significant. But the zeros in $10.69$ are.
+For example, the zeros in <!-- $0.009$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?0.009"> are not significant. But the zeros in <!-- $10.69$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?10.69"> are.
 
-As a rule of thumb, If the zeros are not visible in the [Scientific Notation](#using-scientific-notation-with-physical-measurements). Then they are not significant. If we go back to our example $0.009 = 9 \times 10^{-3}$ and we cant see any zeros here. If we do the other example , i'e $10.69 = 1.069 \times 10^{1}$. We can still see the zeros this time.
+As a rule of thumb, If the zeros are not visible in the [Scientific Notation](#using-scientific-notation-with-physical-measurements). Then they are not significant. If we go back to our example <!-- $0.009 = 9 \times 10^{-3}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?0.009%20%3D%209%20%5Ctimes%2010%5E%7B-3%7D"> and we cant see any zeros here. If we do the other example , i'e <!-- $10.69 = 1.069 \times 10^{1}$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?10.69%20%3D%201.069%20%5Ctimes%2010%5E%7B1%7D">. We can still see the zeros this time.
 
-As a side note, If a measurement specifically has a zero in the scientific notation, It means that zero is actually significant. And if we find ourselves a measurement like $1.0 m$ the zero here is significant and not just a trivial detail.
+As a side note, If a measurement specifically has a zero in the scientific notation, It means that zero is actually significant. And if we find ourselves a measurement like <!-- $1.0 m$ --> <img style="transform: translateY(0.1em);  " src="https://latex.codecogs.com/svg.latex?1.0%20m"> the zero here is significant and not just a trivial detail.
 
 #### Significant Figures in Calculations
 When combining measurements with different degrees of accuracy and precision, the number of significant digits in the final
