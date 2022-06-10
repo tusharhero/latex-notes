@@ -158,7 +158,9 @@ So, for the first question; If someone answered in **length of my smallest hair*
 *How do we know the size on his hair?*
 
 This is the exact reason we have standardized units. They are called ***International System of Units (SI)*** 
+
 ### SI Units: Fundamental and Derived Units
+
 In any system of units, the units for some physical quantities must be defined through a measurement process. These are called the base quantities for that system and their units are the system’s base units. All other physical quantities can then be expressed as algebraic combinations of the base quantities. Each of these physical quantities is then known as a derived quantity and each unit is called a derived unit.
 
 The choice of base quantities is somewhat arbitrary, as long as they are independent of each other and all other quantities can be derived from them.
@@ -178,28 +180,36 @@ Based on such considerations, the International Standards Organization recommend
 
 
 #### The Meter
+
 - The SI unit for length is the meter (m).
 - In 1983, the meter was given its present definition as the distance light travels in a vacuum in ***1/ 299,792,458*** of a second.
+
 #### The Kilogram
+
 - The SI unit for mass is the kilogram (abbreviated kg).
 - it was previously defined to be the mass of a platinum-iridium cylinder kept with the old meter standard at the International Bureau of Weights and Measures near Paris.
 - In May 2019, the scientific community adopted a more stable definition of the kilogram. The kilogram is now defined in terms of the second, the meter, and Planck's constant, h (a quantum mechanical value that relates a photon's energy to its frequency.
+
 #### The Second
+
 - The SI unit for time is the second (s).
 - For many years it was defined as ***1/86,400*** of an average solar day. However, the average solar day is actually very gradually getting longer due to gradual slowing of Earth’s rotation.
 - Therefore, a new standard was adopted to define the second in terms of a non-varying, or constant, physical phenomenon. One constant phenomenon is the very steady vibration of Cesium atoms, which can be observed and counted. This vibration forms the basis of the cesium atomic clock. In 1967, the second was redefined as the time required for ***9,192,631,770 Cesium atom vibrations***
 
 #### The Ampere
+
 - The SI unit for current is the ampere(A), named after Andre Ampere..
 - One ampere is defined as the amount of electric current that will produce an attractive force of ***2.7 × 10–7 newton per meter*** of separation between the two wires (the newton is the derived unit of force).
 
 #### Kelvins
+
 - The SI unit of temperature is the kelvin (or kelvins, but not degrees kelvin). This scale is named after physicist William Thomson, Lord Kelvin, who was the first to call for an absolute temperature scale.
 - The Kelvin scale is based on absolute zero. This is the point at which all thermal energy has been removed from all atoms or molecules in a system.
 - This temperature, 0 K, is equal to ***−273.15 °C*** and ***−459.67 °F***. 
 - Conveniently, the Kelvin scale actually changes in the same way as the Celsius scale. For example, the freezing point (0 °C) and boiling points of water (100 °C) are 100 degrees apart on the Celsius scale. These two temperatures are also 100 kelvins apart (freezing point = ***273.15 K***; boiling point = **373.15** K).
 
 ### Using Scientific Notation with Physical Measurements
+
 Scientific notation is a way of writing numbers that are too large or small to be conveniently written as a decimal.
 
 For example, the number $990000$ is too large to write down(tedious to read too).
@@ -226,6 +236,7 @@ same order of magnitude, 102.
 #### Unit Conversion and Dimensional Analysis
 
 To convert one unit to another for example, 
+
 > $v = \frac{1m}{1s}$
 
 We need to convert it to $\frac{km}{h}$
@@ -262,14 +273,17 @@ $\frac{1km}{1000m} = 1$ is a conversion factor.
 A conversion factor is a ratio expressing how many of one unit are equal to another unit.
 
 ### Accuracy, Precision and Significant Figures
+
 Science is based on experimentation that requires good measurements. The validity of a measurement can be described in terms
 of its accuracy and its precision. 
 
 #### Accuracy
+
 Accuracy refers to how close the measured values are to the actual value.
 
 
 #### Precision
+
 Precision refers to how close the measured values are to each other (regardless of the actual value).
 
 [![High precision Low accuracy](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/High_precision_Low_accuracy.svg/256px-High_precision_Low_accuracy.svg.png)](https://commons.wikimedia.org/wiki/File:High_precision_Low_accuracy.svg "DarkEvil, Public domain, via Wikimedia Commons")
@@ -308,6 +322,7 @@ One method of expressing uncertainty is as a percent of the measured value. If a
 > $\%\delta = \frac{\delta}{A} \times 100\%$
 
 #### Uncertainty in Calculations
+
 There is an uncertainty in anything calculated from measured quantities. If we calculate the area of an Rectangle from measured values by multiplying, what will be uncertainty in the area? If we are talking about small uncertainties, We can take the sum of the percent errors this is called the ***method of adding percents***.
 
 For example, if a floor has a length of $4.00 m$ and a width of $3.00 m$, with uncertainties of $2\%$ and $1\%$, respectively, then the area of the floor is $12.0 m^2$ and has an uncertainty of $3 \%$ (expressed as an area this is $0.36
@@ -336,6 +351,7 @@ As a rule of thumb, If the zeros are not visible in the [Scientific Notation](#u
 As a side note, If a measurement specifically has a zero in the scientific notation, It means that zero is actually significant. And if we find ourselves a measurement like $1.0 m$ the zero here is significant and not just a trivial detail.
 
 #### Significant Figures in Calculations
+
 When combining measurements with different degrees of accuracy and precision, the number of significant digits in the final
 answer can be no greater than the number of significant digits in the least precise measured value.
 
@@ -347,4 +363,5 @@ It is important to note that rules 1 and 2 are not the same, while the first one
 Another thing to notice is that we should start thinking about the Significant Figures at the end of the calculation.
 
 ### Graphing in Physics
+
 *(Will write this later, for now use this [link]([https://](https://assets.openstax.org/oscms-prodcms/media/documents/Physics-WEB_Sab7RrQ.pdf#%5B%7B%22num%22%3A145%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C499%2C0%5D)))*
