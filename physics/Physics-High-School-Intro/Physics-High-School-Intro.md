@@ -27,6 +27,8 @@
     - [Using Scientific Notation with Physical Measurements](#using-scientific-notation-with-physical-measurements)
       - [Unit Conversion and Dimensional Analysis](#unit-conversion-and-dimensional-analysis)
     - [Accuracy, Precision and Significant Figures](#accuracy-precision-and-significant-figures)
+      - [Accuracy](#accuracy)
+      - [Precision](#precision)
       - [Uncertainty](#uncertainty)
       - [Percent Uncertainty](#percent-uncertainty)
       - [Uncertainty in Calculations](#uncertainty-in-calculations)
@@ -215,17 +217,103 @@ This can be extended to fractions too,
 
 > $= \frac{2}{50}$ 
 > $= 0.04$
-> $= 4 \times 10^(\neg2)$
+> $= 4 \times 10^ {-2}$
+
+The term order of magnitude refers to the power of 10 when numbers are expressed in scientific notation. 
+Quantities that have the same power of 10 when expressed in scientific notation, or come close to it, are said to be of the same order of magnitude.
+For example, the number 800 can be written as 8 102, and the number 450 can be written as 4.5 102. Both numbers have the
+same value for y. Therefore, 800 and 450 are of the same order of magnitude. Similarly, 101 and 99 would be regarded as the
+same order of magnitude, 102.
 
 #### Unit Conversion and Dimensional Analysis
 
+To convert one unit to another for example, 
+> $v = \frac{1m}{1s}$
+
+We need to convert it to $\frac{km}{h}$
+
+We can try converting it by substituion i'e by letting $1m = \frac{1km}{1000}$ , and $1s = \frac{1h}{3600}$
+
+But there is a better way, 
+
+We know that $1000m = 1km$ and $3600s = 1h$
+
+Therefore, 
+
+> $\frac{1km}{1000m} = 1$
+
+> $\frac{1h}{3600s} = 1$
+
+
+We also know that $1$ multiplied by anything is the number itself.
+
+If we can multiply them to anything without changing their value.
+
+> $v = \frac{1m}{1s} \times \frac{1km}{1000m} \times \frac{3600s}{1h}$
+
+> $= \frac{1}{1} \times \frac{1km}{1000} \times \frac{3600}{1h}$
+
+> $= \frac{1km}{1000} \times \frac{3600}{1h}$
+
+> $= \frac{3600km}{1000h}$
+
+> $v = \frac{3.6km}{h}$
+
+$\frac{1km}{1000m} = 1$ is a conversion factor.
+
+A conversion factor is a ratio expressing how many of one unit are equal to another unit.
+
 ### Accuracy, Precision and Significant Figures
+Science is based on experimentation that requires good measurements. The validity of a measurement can be described in terms
+of its accuracy and its precision. 
+
+#### Accuracy
+Accuracy refers to how close the measured values are to the actual value.
+
+
+#### Precision
+Precision refers to how close the measured values are to each other (regardless of the actual value).
+
+[![High precision Low accuracy](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/High_precision_Low_accuracy.svg/256px-High_precision_Low_accuracy.svg.png)](https://commons.wikimedia.org/wiki/File:High_precision_Low_accuracy.svg "DarkEvil, Public domain, via Wikimedia Commons")
+
+`High precision Low accuracy`
+
+[![High accuracy Low precision](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/High_accuracy_Low_precision.svg/256px-High_accuracy_Low_precision.svg.png)](https://commons.wikimedia.org/wiki/File:High_accuracy_Low_precision.svg "DarkEvil, Public domain, via Wikimedia Commons")
+
+`High accuracy Low precision`
+
+[![High accuracy, high precision](https://upload.wikimedia.org/wikipedia/commons/6/6c/High_accuracy%2C_high_precision.jpg)](https://commons.wikimedia.org/wiki/File:High_accuracy,_high_precision.jpg "Q50005, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons")
+
+`High accuracy, high precision`
+
 
 #### Uncertainty
 
+The accuracy and precision of a measuring system determine the uncertainty of its measurements.
+
+Uncertainty is a way to describe how much your measured value deviates from the actual value that the object has.
+
+In more general terms, uncertainty can be thought ofas a disclaimer for your measured values. For example, if someone asked you to provide the mileage on your car, you might say that it is 45,000 miles, plus or minus 500 miles. The plus or minus amount is the uncertainty in your value. 
+
+The uncertainty in a measurement, A, is often denoted as δA ("delta A").
+
+The factors contributing to uncertainty in a measurement include the following:
+1. Limitations of the measuring device
+2. The skill of the person making the measurement
+3. Irregularities in the object being measured
+4. Any other factors that affect the outcome (highly dependent on the situation)
+
 #### Percent Uncertainty
 
+One method of expressing uncertainty is as a percent of the measured value. If a measurement, A, is expressed with uncertainty,
+δA, the percent uncertainty is 
+> $\%\delta = \frac{\delta}{A} \times 100\%$
+
 #### Uncertainty in Calculations
+
+An important factor in the accuracy and precision of measurements is the precision of the measuring tool. The more precise the measuring tool, the more precise and accurate the measurements can be.
+
+Suppose we measure a pencil to be $5cm$ using a ruler which has has 1 cm increments, we can't really be sure if it is exactly $5cm$ because it can be $5.1cm$ or $4.9cm$ too, if we use a more precise ruler(With smaller increments). We might find it to be $5.1cm$, we can be sure that it is $5.1cm$ but still we don't know if it is exactly $5.1cm$ it might be $5.09cm$ or $5.01cm$.
 
 #### Precision of Measuring Tools and Significant Figures
 
