@@ -130,7 +130,7 @@ A scientific law is a description of a pattern in nature that is true in all cir
 
 For example, newton's third law,
 
-> $F = ma$
+> <!-- $F = ma$ --> <img style="transform: translateY(0.1em); filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=F%20%3D%20ma">
 
 They can often be expressed as equations or a concise statement.
 
@@ -158,6 +158,7 @@ So, for the first question; If someone answered in **length of my smallest hair*
 *How do we know the size on his hair?*
 
 This is the exact reason we have standardized units. They are called ***International System of Units (SI)*** 
+
 ### SI Units: Fundamental and Derived Units
 In any system of units, the units for some physical quantities must be defined through a measurement process. These are called the base quantities for that system and their units are the system’s base units. All other physical quantities can then be expressed as algebraic combinations of the base quantities. Each of these physical quantities is then known as a derived quantity and each unit is called a derived unit.
 
@@ -180,10 +181,12 @@ Based on such considerations, the International Standards Organization recommend
 #### The Meter
 - The SI unit for length is the meter (m).
 - In 1983, the meter was given its present definition as the distance light travels in a vacuum in ***1/ 299,792,458*** of a second.
+
 #### The Kilogram
 - The SI unit for mass is the kilogram (abbreviated kg).
 - it was previously defined to be the mass of a platinum-iridium cylinder kept with the old meter standard at the International Bureau of Weights and Measures near Paris.
 - In May 2019, the scientific community adopted a more stable definition of the kilogram. The kilogram is now defined in terms of the second, the meter, and Planck's constant, h (a quantum mechanical value that relates a photon's energy to its frequency.
+
 #### The Second
 - The SI unit for time is the second (s).
 - For many years it was defined as ***1/86,400*** of an average solar day. However, the average solar day is actually very gradually getting longer due to gradual slowing of Earth’s rotation.
@@ -202,20 +205,20 @@ Based on such considerations, the International Standards Organization recommend
 ### Using Scientific Notation with Physical Measurements
 Scientific notation is a way of writing numbers that are too large or small to be conveniently written as a decimal.
 
-For example, the number $990000$ is too large to write down(tedious to read too).
+For example, the number <!-- $990000$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=990000"> is too large to write down(tedious to read too).
 
 So, scientists came up with this method to write them.
-> $9.9 \times 10^5$
+> <!-- $9.9 \times 10^5$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=9.9%20%5Ctimes%2010%5E5">
 
 Scientific notation follows this general format,
 
-> $x \times 10^y$
+> <!-- $x \times 10^y$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=x%20%5Ctimes%2010%5Ey">
 
 This can be extended to fractions too,
 
-> $= \frac{2}{50}$ 
-> $= 0.04$
-> $= 4 \times 10^ {-2}$
+> <!-- $= \frac{2}{50}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%20%5Cfrac%7B2%7D%7B50%7D"> 
+> <!-- $= 0.04$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%200.04">
+> <!-- $= 4 \times 10^ {-2}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%204%20%5Ctimes%2010%5E%20%7B-2%7D">
 
 The term order of magnitude refers to the power of 10 when numbers are expressed in scientific notation. 
 Quantities that have the same power of 10 when expressed in scientific notation, or come close to it, are said to be of the same order of magnitude.
@@ -305,20 +308,19 @@ The factors contributing to uncertainty in a measurement include the following:
 
 One method of expressing uncertainty is as a percent of the measured value. If a measurement, A, is expressed with uncertainty,
 δA, the percent uncertainty is 
-> $\%\delta = \frac{\delta}{A} \times 100\%$
+> <!-- $\%\delta = \frac{\delta}{A} \times 100\%$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5C%25%5Cdelta%20%3D%20%5Cfrac%7B%5Cdelta%7D%7BA%7D%20%5Ctimes%20100%5C%25">
 
 #### Uncertainty in Calculations
 There is an uncertainty in anything calculated from measured quantities. If we calculate the area of an Rectangle from measured values by multiplying, what will be uncertainty in the area? If we are talking about small uncertainties, We can take the sum of the percent errors this is called the ***method of adding percents***.
 
-For example, if a floor has a length of $4.00 m$ and a width of $3.00 m$, with uncertainties of $2\%$ and $1\%$, respectively, then the area of the floor is $12.0 m^2$ and has an uncertainty of $3 \%$ (expressed as an area this is $0.36
-m^2$, which we round to $0.4 m^2$ since the area of the floor is given to a tenth of a square meter).
+For example, if a floor has a length of <!-- $4.00 m$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=4.00%20m"> and a width of <!-- $3.00 m$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=3.00%20m">, with uncertainties of <!-- $2\%$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=2%5C%25"> and <!-- $1\%$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=1%5C%25">, respectively, then the area of the floor is <!-- $12.0 m^2$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=12.0%20m%5E2"> and has an uncertainty of <!-- $3 \%$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=3%20%5C%25"> (expressed as an area this is <!-- $0.36m^2$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=0.36m%5E2">, which we round to <!-- $0.4 m^2$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=0.4%20m%5E2"> since the area of the floor is given to a tenth of a square meter).
 
 
 #### Precision of Measuring Tools and Significant Figures
 
 An important factor in the accuracy and precision of measurements is the precision of the measuring tool. The more precise the measuring tool, the more precise and accurate the measurements can be.
 
-Suppose we measure a pencil to be $5cm$ using a ruler which has has 1 cm increments, we can't really be sure if it is exactly $5cm$ because it can be $5.1cm$ or $4.9cm$ too, if we use a more precise ruler(With smaller increments). We might find it to be $5.1cm$, we can be sure that it is $5.1cm$ but still we don't know if it is exactly $5.1cm$ it might be $5.09cm$ or $5.01cm$.
+Suppose we measure a pencil to be <!-- <!-- $5cm$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=5cm"> --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=5cm"> using a ruler which has has 1 cm increments, we can't really be sure if it is exactly <!-- $5cm$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=5cm"> because it can be <!-- <!-- $5.1cm$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=5.1cm"> --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=5.1cm"> or <!-- $4.9cm$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=4.9cm"> too, if we use a more precise ruler(With smaller increments). We might find it to be <!-- $5.1cm$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=5.1cm">, we can be sure that it is <!-- $5.1cm$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=5.1cm"> but still we don't know if it is exactly <!-- $5.1cm$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=5.1cm"> it might be <!-- $5.09cm$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=5.09cm"> or <!-- $5.01cm$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=5.01cm">.
 
 In our first measurement, there is only one *Significant Figure* and in the second measurement there are two.
 
@@ -329,11 +331,11 @@ The number of significant figures in a measurement indicates the precision of th
 
 Zeros are given special consideration when counting [`Sig figs`](#precision-of-measuring-tools-and-significant-figures).
 
-For example, the zeros in $0.009$ are not significant. But the zeros in $10.69$ are.
+For example, the zeros in <!-- $0.009$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=0.009"> are not significant. But the zeros in <!-- $10.69$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=10.69"> are.
 
-As a rule of thumb, If the zeros are not visible in the [Scientific Notation](#using-scientific-notation-with-physical-measurements). Then they are not significant. If we go back to our example $0.009 = 9 \times 10^{-3}$ and we cant see any zeros here. If we do the other example , i'e $10.69 = 1.069 \times 10^{1}$. We can still see the zeros this time.
+As a rule of thumb, If the zeros are not visible in the [Scientific Notation](#using-scientific-notation-with-physical-measurements). Then they are not significant. If we go back to our example <!-- $0.009 = 9 \times 10^{-3}$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=0.009%20%3D%209%20%5Ctimes%2010%5E%7B-3%7D"> and we cant see any zeros here. If we do the other example , i'e <!-- $10.69 = 1.069 \times 10^{1}$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=10.69%20%3D%201.069%20%5Ctimes%2010%5E%7B1%7D">. We can still see the zeros this time.
 
-As a side note, If a measurement specifically has a zero in the scientific notation, It means that zero is actually significant. And if we find ourselves a measurement like $1.0 m$ the zero here is significant and not just a trivial detail.
+As a side note, If a measurement specifically has a zero in the scientific notation, It means that zero is actually significant. And if we find ourselves a measurement like <!-- $1.0 m$ --> <img style="transform: translateY(0.1em);  filter: invert(100%);" src="https://render.githubusercontent.com/render/math?math=1.0%20m"> the zero here is significant and not just a trivial detail.
 
 #### Significant Figures in Calculations
 When combining measurements with different degrees of accuracy and precision, the number of significant digits in the final
@@ -345,5 +347,6 @@ answer can be no greater than the number of significant digits in the least prec
 It is important to note that rules 1 and 2 are not the same, while the first one is talking about the number of significant figures. The second one is talking the number of number-places before and after the decimal point.
 
 Another thing to notice is that we should start thinking about the Significant Figures at the end of the calculation.
+
 ### Graphing in Physics
 *(Will write this later, for now use this [link]([https://](https://assets.openstax.org/oscms-prodcms/media/documents/Physics-WEB_Sab7RrQ.pdf#%5B%7B%22num%22%3A145%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C499%2C0%5D)))*
