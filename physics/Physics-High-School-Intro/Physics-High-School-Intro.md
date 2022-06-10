@@ -36,8 +36,6 @@
       - [Zeros](#zeros)
       - [Significant Figures in Calculations](#significant-figures-in-calculations)
     - [Graphing in Physics](#graphing-in-physics)
-      - [Analyzing a Graph Using Its Equation](#analyzing-a-graph-using-its-equation)
-      - [Using Logarithmic Scales in Graphing](#using-logarithmic-scales-in-graphing)
 
 ## Physics: Definitions and Applications
 
@@ -310,19 +308,42 @@ One method of expressing uncertainty is as a percent of the measured value. If a
 > $\%\delta = \frac{\delta}{A} \times 100\%$
 
 #### Uncertainty in Calculations
+There is an uncertainty in anything calculated from measured quantities. If we calculate the area of an Rectangle from measured values by multiplying, what will be uncertainty in the area? If we are talking about small uncertainties, We can take the sum of the percent errors this is called the ***method of adding percents***.
+
+For example, if a floor has a length of $4.00 m$ and a width of $3.00 m$, with uncertainties of $2\%$ and $1\%$, respectively, then the area of the floor is $12.0 m^2$ and has an uncertainty of $3 \%$ (expressed as an area this is $0.36
+m^2$, which we round to $0.4 m^2$ since the area of the floor is given to a tenth of a square meter).
+
+
+#### Precision of Measuring Tools and Significant Figures
 
 An important factor in the accuracy and precision of measurements is the precision of the measuring tool. The more precise the measuring tool, the more precise and accurate the measurements can be.
 
 Suppose we measure a pencil to be $5cm$ using a ruler which has has 1 cm increments, we can't really be sure if it is exactly $5cm$ because it can be $5.1cm$ or $4.9cm$ too, if we use a more precise ruler(With smaller increments). We might find it to be $5.1cm$, we can be sure that it is $5.1cm$ but still we don't know if it is exactly $5.1cm$ it might be $5.09cm$ or $5.01cm$.
 
-#### Precision of Measuring Tools and Significant Figures
+In our first measurement, there is only one *Significant Figure* and in the second measurement there are two.
+
+The number of significant figures in a measurement indicates the precision of the measuring tool. The more precise a measuring tool is, the greater the number of significant figures it can report.
+
 
 #### Zeros
 
+Zeros are given special consideration when counting [`Sig figs`](#precision-of-measuring-tools-and-significant-figures).
+
+For example, the zeros in $0.009$ are not significant. But the zeros in $10.69$ are.
+
+As a rule of thumb, If the zeros are not visible in the [Scientific Notation](#using-scientific-notation-with-physical-measurements). Then they are not significant. If we go back to our example $0.009 = 9 \times 10^{-3}$ and we cant see any zeros here. If we do the other example , i'e $10.69 = 1.069 \times 10^{1}$. We can still see the zeros this time.
+
+As a side note, If a measurement specifically has a zero in the scientific notation, It means that zero is actually significant. And if we find ourselves a measurement like $1.0 m$ the zero here is significant and not just a trivial detail.
+
 #### Significant Figures in Calculations
+When combining measurements with different degrees of accuracy and precision, the number of significant digits in the final
+answer can be no greater than the number of significant digits in the least precise measured value.
 
+1. For Multiplication and Divison; the same number of significant significant digits as in the least precise value.
+2. For Addition and Subtraction; the answer should have the same number places (e.g. tens place, ones place, tenths place, etc.) as the least-precise starting value.
+
+It is important to note that rules 1 and 2 are not the same, while the first one is talking about the number of significant figures. The second one is talking the number of number-places before and after the decimal point.
+
+Another thing to notice is that we should start thinking about the Significant Figures at the end of the calculation.
 ### Graphing in Physics
-
-#### Analyzing a Graph Using Its Equation
-
-#### Using Logarithmic Scales in Graphing
+*(Will write this later, for now use this [link]([https://](https://assets.openstax.org/oscms-prodcms/media/documents/Physics-WEB_Sab7RrQ.pdf#%5B%7B%22num%22%3A145%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C499%2C0%5D)))*
