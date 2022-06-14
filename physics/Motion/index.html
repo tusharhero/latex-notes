@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Motion</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="motion">Motion</h1>
+<ul>
+<li><a href="#motion">Motion</a>
+<ul>
+<li><a href="#defining-motion">Defining Motion</a></li>
+<li><a href="#distance-vs-displacement">Distance
+vs. Displacement</a></li>
+<li><a href="#speed-and-velocity">Speed and Velocity</a>
+<ul>
+<li><a href="#speed">Speed</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="defining-motion">Defining Motion</h2>
+<p>Objects are always moving everywhere, We see cars and planes moving
+very fast. We also see Ants moving.</p>
+<p>Whenever objects are moving we say that they are in motion.</p>
+<p>We can say that motion is change in position over time. But more
+precisely, It is the change in position <strong>relative</strong> to a
+<em>reference point</em> over time.</p>
+<p>This reference point is a conveniently choosen point. For example, If
+a rocket is being fired into space, a good reference point would the
+entire earth🌍 as a whole. When we are in the classroom, we could say
+that the best one would be the blackboard🧑‍🏫.</p>
+<figure>
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/0/0e/CRS-9_mission_%2828348649546%29.jpg"
+alt="Rocket image" />
+<figcaption aria-hidden="true">Rocket image</figcaption>
+</figure>
+<p>Now Imagine that you are 3 friends X,Y , and Z. Lets say X is going
+out of the room while Y is entering into the room at the exact speed
+while Z is just sitting there. If we take X as the reference point, X
+will appear to be at rest, and Y and Z moving in opposite directions. If
+we take X as the reference point, Z will appear to be moving towards to
+the inside the room and Y will appear to go at double the speed into the
+room.</p>
+<p>We can also imagine the reference point as a point which we assume to
+be staitionary.</p>
+<h2 id="distance-vs.-displacement">Distance vs. Displacement</h2>
+<p>Distance refers to the change in position when we travel from one
+point to another.</p>
+<p>While on the other hand, Distance refers to the length of the path
+one has to take to travel from one point to another.</p>
+<p>In physics, the use <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20d" alt="d"
+title="d" class="math inline" /> to represent the position of the
+object, and <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20d_0" alt="d_0"
+title="d_0" class="math inline" /> and <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20d_f" alt="d_f"
+title="d_f" class="math inline" /> respectively for the initial and
+final position of the object.</p>
+<p>It is important to note that these two may not be the same always.
+For example,</p>
+<p>You go to your friend’s house🏠, the road you take may not be
+shortest one, there maybe some turns here and there. This increases the
+distance. When you reach your friend’s house🏠. The Displacement will be
+much lower than the distance you have travelled. <img
+src="https://openstax.org/apps/archive/20220509.174553/resources/616d8a57be177a7d3fad8f4254db03953d75a229" /></p>
+<p>Displacement is a vector and distance travelled is a scalar.</p>
+<p>Vector is a quantity which has a magnitude and direction associated
+with it. While Scalar is a quantity with magintube and no direction
+associated with it.</p>
+<p>if we assume the direction of friend’s house🏠 to be East , And
+assume the length of the shortest line between the points to be <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%201%20km"
+alt="1 km" title="1 km" class="math inline" />, then our Displacement
+would be <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%201%20km%5C%20to%5C%20the%5C%20East"
+alt="1 km\ to\ the\ East" title="1 km\ to\ the\ East"
+class="math inline" />. If we say the path is <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%202%20km"
+alt="2 km" title="2 km" class="math inline" /> long then the distance
+travelled would be <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%202%20km"
+alt="2 km" title="2 km" class="math inline" />. Now Imagine if you
+return back to your house🏠, this would mean that <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20d_0%20%3D%20d_f"
+alt="d_0 = d_f" title="d_0 = d_f" class="math inline" />, hence the
+Displacement would be <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%200" alt="0"
+title="0" class="math inline" /> but the distance travelled would be
+<img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%204km" alt="4km"
+title="4km" class="math inline" />.</p>
+<p>You can calculate an object’s displacement by subtracting its
+original position, d0, from its final position df. In math terms that
+means:</p>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%0A%5CDelta%20d%20%3D%20d_f%20-%20d_0%0A"
+alt="
+\Delta d = d_f - d_0
+" title="
+\Delta d = d_f - d_0
+" class="math display" /> and if <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20d_f%20%3D%20d_0%20%3D%20%5Csigma"
+alt="d_f = d_0 = \sigma" title="d_f = d_0 = \sigma"
+class="math inline" /> then,</p>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%0A%5CDelta%20d%20%3D%20%5Csigma%20-%20%5Csigma%0A"
+alt="
+\Delta d = \sigma - \sigma
+" title="
+\Delta d = \sigma - \sigma
+" class="math display" /></p>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%0A%5CDelta%20d%20%3D%200%0A"
+alt="
+\Delta d = 0
+" title="
+\Delta d = 0
+" class="math display" /></p>
+<p>Hence the displacement will be 0.</p>
+<p>In 1d, we can have a origin and we can assume the left side to be
+<img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20ve%5E-"
+alt="ve^-" title="ve^-" class="math inline" /> and the right to be <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20ve%5E%2B"
+alt="ve^+" title="ve^+" class="math inline" />.</p>
+<p><strong>practice question.</strong></p>
+<pre><code>A cyclist rides 3 km west and then turns around and rides 2 km east. 
+
+(a) What is her displacement? 
+
+(b) What distance does she ride? 
+
+(c) What is the magnitude of her displacement?</code></pre>
+<h2 id="speed-and-velocity">Speed and Velocity</h2>
+<h3 id="speed">Speed</h3>
+<p>The description of how slow or fast an object is moving is called its
+speed. Speed is the rate at which an object changes it position. It is
+scalar quantity so it doesn’t have any direction associated with it.</p>
+<p>Since it is a rate, We can say it depend on the time interval of
+motion. We can calculate the time interval <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5CDelta%20t"
+alt="\Delta t" title="\Delta t" class="math inline" /> using the
+following formula.</p>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%0A%5CDelta%20t%20%3D%20t_f%20-%20t_0%0A"
+alt="
+\Delta t = t_f - t_0
+" title="
+\Delta t = t_f - t_0
+" class="math display" /></p>
+<p>Here <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20t_0" alt="t_0"
+title="t_0" class="math inline" /> and <img
+style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20t_f" alt="t_f"
+title="t_f" class="math inline" /> are the beginning and ending time
+respectively.</p>
+<p>its S.I unit is <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Cfrac%7Bm%7D%7Bs%7D"
+alt="\frac{m}{s}" title="\frac{m}{s}" class="math inline" />.</p>
+<p>When you describe an object’s speed, you often describe the average
+over a time period. Average speed, <img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Ctextit%7Bv%7D_%7Bavg%7D"
+alt="\textit{v}_{avg}" title="\textit{v}_{avg}" class="math inline" />,
+is the distance traveled divided by the time during which the motion
+occurs.</p>
+<p><img style="vertical-align:middle"
+src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%0A%5Ctextit%7Bv%7D_%7Bavg%7D%20%3D%20%5Cfrac%7Bdistance%7D%7Btime%7D%0A"
+alt="
+\textit{v}_{avg} = \frac{distance}{time}
+" title="
+\textit{v}_{avg} = \frac{distance}{time}
+" class="math display" /></p>
+<p>Speed at a specific instant in time, however, is its instantaneous
+speed. A car’s speedometer describes its instantaneous speed.</p>
+<p><strong>practice question.</strong></p>
+<pre><code>A marble rolls 5.2 m in 1.8 s. What was the marble&#39;s average speed?</code></pre>
+</body>
+</html>
